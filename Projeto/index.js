@@ -3,7 +3,7 @@ let nomeDoHeroi = "Everoc Cross"
 let xp = 8700
 let nivelDoHeroi = ""
 
-if (xp < 1000){
+if (xp <= 1000){
     nivelDoHeroi = "Ferro"
 }
 else if(xp >= 1001 && xp <= 2000){
